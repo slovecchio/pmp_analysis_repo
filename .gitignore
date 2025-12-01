@@ -1,1 +1,27 @@
-**/*.ipynb_checkpoints/
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Data outputs
+*.csv
+**/*.csv
+
+# Images
+*.png
+**/*.png
+
+# Output folders
+traject_file/
+**/traject_file/
+try_cluster/
+**/try_cluster/
+try_segment_traj/
+**/try_segment_traj/
+
+*.html
+*.json
+*.geojson
