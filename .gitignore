@@ -25,3 +25,11 @@ try_segment_traj/
 *.html
 *.json
 *.geojson
+
+# Exception: track only these two HTML files
+!Kompass_Spot/refilled_locations_map_light_NL_floor1.html
+!Kompass_Spot/refilled_locations_map_light_NL_floor2.html
+
+# Exception: track only file into Barendrecth
+!Kompass_Spot/inputBarendrecth/*
+
