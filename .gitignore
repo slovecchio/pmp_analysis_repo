@@ -33,5 +33,3 @@ try_segment_traj/
 # Exception: track only file into Barendrecth
 !Kompass_Spot/inputBarendrecth/*
 
-!input_geojson_ariadne/
-!input_sample_trajectories/
