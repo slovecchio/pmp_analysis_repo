@@ -33,3 +33,4 @@ try_segment_traj/
 # Exception: track only file into Barendrecth
 !Kompass_Spot/inputBarendrecth/*
 
+Analysis_Feb_26/Media_maintenance_Ariadne_NL.ipynb
