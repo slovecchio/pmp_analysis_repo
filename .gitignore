@@ -2,6 +2,17 @@
 .DS_Store
 **/.DS_Store
 
+# Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+**/.venv/
+venv/
+**/venv/
+
 # Jupyter checkpoints
 .ipynb_checkpoints/
 **/.ipynb_checkpoints/
