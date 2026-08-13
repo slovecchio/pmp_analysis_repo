@@ -1,29 +1,4 @@
--- ################
--- Initial Question:
--- "How profitable was the US business in May?"
--- ################
--- Revised Question:
--- What were total DNS, budget sales, GP0, GP1, GP2, GM0, GM1 and GM2 for US stores from 2026-05-01 to 2026-05-31?
--- ################
--- Answer:
--- Query run date: 2026-07-30.
---
--- dns_k  | budget_sales_k | gp0_k  | gp1_k  | gp2_k  | gm0_pct | gm1_pct | gm2_pct
--- 421888 | 413593         | 198766 | 215000 | 205487 | 48.06   | 50.96   | 48.71
--- ################
--- Assumptions/Doubts:
--- - Retail Unit US is used.
--- - The window starts on 2026-05-01 and ends on 2026-05-31.
--- - Dashboard row-view logic is used for margin percentages.
--- - GM0 % = GP0 / Sales Budgeted Price.
--- - GM1 % = GP1 / Delivered Net Sales.
--- - GM2 % = GP2 / Delivered Net Sales.
--- ################
--- Scope:
--- - Retail Unit: US
--- - Window: 2026-05-01 to 2026-05-31
--- - Source table/view: `ingka-sot-isa-dev.isa_derived.derived_daily_profitability`
--- - Runner/Billing project: ingka-sot-isa-dev
+-- The US business profitability from 2026-05-01 to 2026-05-31 is shown below, with Delivered Net Sales, budget sales, GP0, GP1 and GP2 in thousands, plus GM0, GM1 and GM2 percentages.
 
 WITH base AS (
   SELECT
